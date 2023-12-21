@@ -1,0 +1,40 @@
+.vpn__title{
+    font-weight: 500;
+    font-size: 50px;
+    color: #0B132A;
+    line-height: 70px;
+    margin-top: 140px;
+}
+
+.vpn__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.getStarted{
+    background: #F53838;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    top: 492px;
+    left: 147px;
+    border: 0 #F53855;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+    animation: subscribe_move 5s ;
+}
+
+@keyframes subscribe_move {
+  0%   {top: 0px; background: #4F5665; width: 100px;}
+  100% {top: 200px; background: #F53838; width: 200px;}
+}
+
+.illustration1__item{
+    margin-top: 88px;
+    margin-left: 41px;
+}
